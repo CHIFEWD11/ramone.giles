@@ -1,0 +1,108 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	border: 1px solid black;
+}
+
+.clearfix:after {
+	display: block;
+	height: 0;
+	clear: both;
+	line-height: 0;
+	content: ".";
+
+	visibility: hidden;
+}
+
+/* Your styles here */
+body{
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background-image: url(../images/chicago_panorama.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Layout */
+.site{
+}
+
+div.dashboard{
+	 background-color: #0d0516;
+}
+
+h1{
+	position: absolute;
+	top: 0;
+	margin: 5px;
+}
+
+strong{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+input[type="text"]{
+	width: 200px;
+	height: 25px;
+}
+
+nav a{
+	color: #c13f0f;
+}
+
+.accounts{
+	float: right;
+}
+
+a.current.account{
+	color: #0e7239;
+}
+
+a.new.account{
+	color: #0e7239;
+}
+
+img{
+	width: 57px;
+	height: 76px;
+}
+
+.column{
+	float: left;
+}
+
+.column2{
+	width: 930px;
+	height: 80px;
+}
+/*.dashtext{
+	width: 680px;
+	height: 80px;
+}
+*/
+
+input.search{
+}
+
+div.navigations{
+padding-top: 30px; 
+}
+
+.navigations{
+	position: absolute;
+	top: 45px;
+}
+
+.column3{
+	float: right;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+}
